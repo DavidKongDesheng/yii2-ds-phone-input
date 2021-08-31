@@ -1,6 +1,14 @@
 <?php
+/*
+ * @Author: your name
+ * @Date: 2021-08-31 15:34:28
+ * @LastEditTime: 2021-08-31 15:38:06
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /yii2-ds-phone-input/src/PhoneInputValidator.php
+ */
 
-namespace borales\extensions\phoneInput;
+namespace deshengk\extensions\phoneInput;
 
 use libphonenumber\NumberParseException;
 use libphonenumber\PhoneNumberUtil;
@@ -11,7 +19,7 @@ use yii\helpers\Json;
 
 /**
  * Validates the given attribute value with the PhoneNumberUtil library.
- * @package borales\extensions\phoneInput
+ * @package deshengk\extensions\phoneInput
  */
 class PhoneInputValidator extends Validator
 {

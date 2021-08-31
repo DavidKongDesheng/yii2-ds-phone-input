@@ -1,6 +1,6 @@
 <?php
 
-namespace borales\extensions\phoneInput;
+namespace deshengk\extensions\phoneInput;
 
 use libphonenumber\NumberParseException;
 use libphonenumber\PhoneNumberFormat;
@@ -11,7 +11,7 @@ use yii\db\BaseActiveRecord;
 
 /**
  * Behavior of the phone input widget. Auto-formats the phone value for the JS-widget.
- * @package borales\extensions\phoneInput
+ * @package deshengk\extensions\phoneInput
  */
 class PhoneInputBehavior extends AttributeBehavior
 {
