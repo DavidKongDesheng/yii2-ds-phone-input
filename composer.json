@@ -10,10 +10,10 @@
     "minimum-stability": "dev",
     "license": "BSD-3-Clause",
     "type": "yii2-extension",
-    "homepage": "https://github.com/Borales/yii2-phone-input",
+    "homepage": "https://github.com/deshengk/yii2-ds-phone-input",
     "support": {
-        "issues": "https://github.com/Borales/yii2-phone-input/issues?state=open",
-        "source": "https://github.com/Borales/yii2-phone-input"
+        "issues": "https://github.com/deshengk/yii2-ds-phone-input/issues?state=open",
+        "source": "https://github.com/deshengk/yii2-ds-phone-input"
     },
     "authors": [{
         "name": "Borales (Alexandr Bordun)",
@@ -21,7 +21,7 @@
     }],
     "autoload": {
         "psr-4": {
-            "borales\\extensions\\phoneInput\\": "src/"
+            "deshengk\\extensions\\phoneInput\\": "src/"
         }
     },
     "repositories": [{
