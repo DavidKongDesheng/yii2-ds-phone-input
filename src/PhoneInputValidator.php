@@ -62,7 +62,7 @@ class PhoneInputValidator extends Validator
             if ($this->region !== null) {
                 $regions = is_array($this->region) ? $this->region : [$this->region];
                 foreach ($regions as $region) {
-                    if ($phoneUtil->isValidNumber($phoneProto)) {
+                    if ($phoneUtil->isValidNumberForRegion($phoneProto, $region)) {
                         $valid = true;
                         break;
                     }
