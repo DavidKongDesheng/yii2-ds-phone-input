@@ -4,23 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0cb41a11de205fdc3ad369326962c5fb",
+    "content-hash": "59a94b4c6084f19900805126a0b386e7",
     "packages": [
-        {
-            "name": "bower-asset/intl-tel-input",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:Bluefieldscom/intl-tel-input.git",
-                "reference": "a21a1aee03bfd6b82a028704490547ff77d8bf98"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Bluefieldscom/intl-tel-input/zipball/a21a1aee03bfd6b82a028704490547ff77d8bf98",
-                "reference": "a21a1aee03bfd6b82a028704490547ff77d8bf98"
-            },
-            "type": "bower-asset"
-        },
         {
             "name": "cebe/markdown",
             "version": "1.1.2",
@@ -211,6 +196,59 @@
                 "source": "https://github.com/giggsey/Locale/tree/2.5"
             },
             "time": "2023-11-01T17:19:48+00:00"
+        },
+        {
+            "name": "jackocnr/intl-tel-input",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jackocnr/intl-tel-input.git",
+                "reference": "d6552cbb95172e81a79b3b528a5a350c8db1db33"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jackocnr/intl-tel-input/zipball/d6552cbb95172e81a79b3b528a5a350c8db1db33",
+                "reference": "d6552cbb95172e81a79b3b528a5a350c8db1db33",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jack O'Connor",
+                    "homepage": "http://jackocnr.com"
+                }
+            ],
+            "description": "A JavaScript plugin for entering and validating international telephone numbers",
+            "homepage": "https://github.com/jackocnr/intl-tel-input",
+            "keywords": [
+                "code",
+                "country",
+                "dial",
+                "flag",
+                "i18n",
+                "input",
+                "international",
+                "mobile",
+                "number",
+                "tel",
+                "telephone"
+            ],
+            "support": {
+                "issues": "https://github.com/jackocnr/intl-tel-input/issues",
+                "source": "https://github.com/jackocnr/intl-tel-input/tree/master"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/jackocnr",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-03-03T17:58:39+00:00"
         },
         {
             "name": "psr/http-message",
@@ -654,7 +692,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "bower-asset/intl-tel-input": 20
+        "giggsey/libphonenumber-for-php": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

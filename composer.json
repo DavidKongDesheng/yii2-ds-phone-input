@@ -29,9 +29,9 @@
         "url": "https://asset-packagist.org"
     }],
     "require": {
-        "bower-asset/intl-tel-input": "dev-master",
-        "giggsey/libphonenumber-for-php": "^8",
-        "yiisoft/yii2": ">=2.0.1"
+        "giggsey/libphonenumber-for-php": "^8.0@dev",
+        "yiisoft/yii2": ">=2.0.1",
+        "jackocnr/intl-tel-input": "dev-master"
     },
     "config": {
         "allow-plugins": {
